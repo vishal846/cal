@@ -1,0 +1,21 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "oxygen";
+}
+#main {
+    width: 20vw;
+    height: 50vh;
+    text-align: center;
+   transform: translate(40vw,20vh); 
+}
+img{
+    
+    transition: 1s;
+    padding: 1vw;
+}
+img:hover{
+    scale: 1.2;
+    transition: 1s;
+}
