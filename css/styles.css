@@ -14,7 +14,7 @@ align-items:center;
 flex-direction: column;
 }
 h1 {
-    font-weight:  300vw;
+    font-weight:  100vw;
     margin-bottom: 3vw;
     font-size: 10vh;
     font-style:oblique; 
@@ -65,6 +65,43 @@ body {
 }
 @media only screen and (max-width: 600px) {
     body{
-        background-color: aqua;
+        background-color: black;
+        min-height: 60vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+    h1 {
+        font-weight: 50vw;
+        text-align: center;
+        font-size: 10vw;
+        margin-bottom: 3vw;
+        font-style: oblique;
+        color: yellow;
     }
-}
+    input[type=number] {
+        width: 5vw;
+        font-weight: 3vw;
+        padding: 1vw;
+        margin: 0vw 1vw 1vw 1vw;
+        font-size: 1.5vh;
+    }
+    div {
+        width: 90vw;
+        height: 30.5vh;
+        text-align: center;
+        margin: 1vh 0;
+        padding: 1vh;
+    }
+    input[type=text] {
+        font-size: 3vh;
+        padding: 1vw 0;
+        font-weight: 25vw;
+        text-align: center;
+        background-color: #f7f7f7;
+        border:black;
+        border: radius 3vh;
+    }
+
+    }
+
