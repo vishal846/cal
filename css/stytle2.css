@@ -1,21 +1,107 @@
+/*----- styles.css -----*/
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: broder border-box;
     font-family: "oxygen";
 }
-#main {
-    width: 20vw;
-    height: 50vh;
+body {
+background-color:black;
+min-height: 120vh;
+display: flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+}
+h1 {
+    font-weight:  100vw;
+    margin-bottom: 3vw;
+    font-size: 10vh;
+    font-style:oblique; 
+    color: yellow;
+}
+div {
+    width: 100vw;
+    height: 37vh;
+    background-color: #ffff;
+    margin: 1vw 0;
+    padding: 1vh;
     text-align: center;
-   transform: translate(40vw,20vh); 
+    box-shadow: 0vh 1vw 1vw 0vh ;
+    font-size: 3vh;
+    font-style: oblique;
+    color: tomato;
+    }
+input[type=number] {
+width: 10vw;
+font-weight: 6vw;
+padding: 2vw;
+margin: 0vw 2vw 2vw 2vw;
+font-size: 3vh;
 }
-img{
-    
-    transition: 1s;
-    padding: 1vw;
+button {
+    text-transform: uppercase;
+    font-weight: 80vw;
+    font-size: 3vh;
+    margin: 1vh 0;
+    padding: 2vh;
+    cursor: pointer;
+    letter-spacing: 1vh;
+    font-style: oblique;    
+    color: black;
 }
-img:hover{
-    scale: 1.2;
-    transition: 1s;
+input[type=text] {
+    font-size: 5vh;
+    padding: 1vw 0;
+    font-weight: 50vw;
+    text-align: center;
+    background-color: #f7f7f7;
+    border:black;
+    border: radius 5vh;;
 }
+
+body {
+    background-color:black;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: black;
+        min-height: 60vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }   
+    h1 {
+        font-weight: 50vw;
+        text-align: center;
+        font-size: 10vw;
+        margin-bottom: 3vw;
+        font-style: oblique;
+        color: yellow;
+    }
+    input[type=number] {
+        width: 5vw;
+        font-weight: 3vw;
+        padding: 1vw;
+        margin: 0vw 1vw 1vw 1vw;
+        font-size: 1.5vh;
+    }
+    div {
+        width: 90vw;
+        height: 30.5vh;
+        text-align: center;
+        margin: 1vh 0;
+        padding: 1vh;
+    }
+    input[type=text] {
+        font-size: 3vh;
+        padding: 1vw 0;
+        font-weight: 25vw;
+        text-align: center;
+        background-color: #f7f7f7;
+        border:black;
+        border: radius 3vh;
+    }
+
+    }
+
